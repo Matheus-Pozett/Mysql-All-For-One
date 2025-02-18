@@ -10,10 +10,12 @@ Projeto com o codinome All For One em que praticará todos os conceitos de SQL j
 
 Para executar o repositório localmente, clone o projeto e use os seguintes comandos para inicializar o Docker:
 
+```
 docker-compose up -d // inicia a aplicação com o Docker
 docker exec -it all_for_one bash // executa o container no modo interativo
 npm install // instala dependências
 docker-compose down // parar a aplicação
+```
 
 ## 📝 Habilidades adquiridas
 
