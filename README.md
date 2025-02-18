@@ -6,6 +6,15 @@ Projeto desenvolvido no módulo de Back-End do curso de desenvolvimento web da T
 
 Projeto com o codinome All For One em que praticará todos os conceitos de SQL já ensinados na plataforma de aprendizagem do curso de desenvolvimento web da Trybe.
 
+## Instruções
+
+Para executar o repositório localmente, clone o projeto e use os seguintes comandos para inicializar o Docker:
+
+docker-compose up -d // inicia a aplicação com o Docker
+docker exec -it all_for_one bash // executa o container no modo interativo
+npm install // instala dependências
+docker-compose down // parar a aplicação
+
 ## 📝 Habilidades adquiridas
 
 1.  Compreender o que é uma query SQL e quais são seus tipos de comando;
